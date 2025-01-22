@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body.dark {
+  background-color: #1a202c;
+  /* Dark background */
+  color: #f7fafc;
+  /* Light text color */
+}
+
+.dark .bg-white {
+  background-color: #2d3748;
+  /* Darker background for elements */
+}
+
+.dark .text-black {
+  color: #f7fafc;
+  /* Light text for elements */
+}
+
+.dark .bg-blue-600 {
+  background-color: #4a5568;
+  /* Darker background for navbar */
+}
+
+.dark .hover\:bg-blue-500:hover {
+  background-color: #4a5568;
+  /* Adjust hover state for buttons */
+}
+
+.dark .hover\:bg-red-500:hover {
+  background-color: #e53e3e;
+  /* Adjust hover state for buttons */
+}
